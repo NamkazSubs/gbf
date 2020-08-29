@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+    @keyframes image-appear-mobile {
+
+        0%,
+        100% {
+            transform: translateY(-15px);
+            opacity: 0;
+        }
+
+        10%,
+        90% {
+            transform: translateY(0);
+            opacity: 0.5;
+        }
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center !important;
+        padding: 0;
+        z-index: 5;
+        background: none;
+    }
+
+    .section .image img {
+        opacity: 0.35;
+    }
+
+    .section-title h1 {
+        /* font-size:17px; */
+        font-size: 20px;
+    }
+
+    .section .right-gran {
+        margin-bottom: 100px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* SECTION TWO */
+
+    .section-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-two .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center !important;
+        padding: 0;
+        z-index: 5;
+        background: none;
+    }
+
+    .section-two .image img {
+        opacity: 0.35;
+    }
+
+    .section-two .left-djeta {
+        margin-bottom: 100px;
+        font-size: 15px;
+        width: 100%;
+
+    }
+
+    /* SECTION CHARA */
+    .section-character {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-character .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center !important;
+        padding: 0;
+        z-index: 5;
+        background: none;
+    }
+
+    .section-character .image img {
+        opacity: 0.35;
+    }
+
+    .section-character .right-gran {
+        margin-bottom: 100px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .section-character .left-character {
+        width: 100%;
+        padding: 100px;
+    }
+    .btn-chara {
+        width: 100px;
+        margin: 5%;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .btn-chara {
+        width: 100px;
+        margin: 11px;
+        height: 30px;
+    }
+ }
