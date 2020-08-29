@@ -152,3 +152,31 @@
         height: 30px;
     }
  }
+
+ /* @media screen and (max-width: 460px) {
+    .btn-chara {
+        width: 100px;
+        margin: 11px;
+        height: 30px;
+    }
+ } */
+ @media screen and (max-width: 393px) {
+    .btn-chara {
+        margin: 8px;
+    }
+ }
+ @media screen and (max-width: 376px) {
+    .btn-chara {
+        margin: 7px;
+    }
+ }
+ @media screen and (max-width: 370px) {
+    .btn-chara {
+        margin: 6px;
+    }
+ } 
+ @media screen and (max-width: 364px) {
+    .btn-chara {
+        margin: 5px;
+    }
+ }      
