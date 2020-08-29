@@ -204,10 +204,11 @@
     min-height: 500px;
     border-bottom: solid 2px #ddd;
   }
+
   .section-screenshot .screenshot {
     flex: 25%;
-    padding: 0 50px;
     margin-top: 20px;
+    margin-left: 2%;
   }
 
   .section-screenshot .screenshot img {
@@ -297,6 +298,10 @@
   }
 
 
+  .img-scale-ss {
+    width: 512px;
+  }
+
 .footer {
     background-color: #eaecee;
     text-align: center;
@@ -306,8 +311,6 @@
 .footer p {
     padding: 15px;
 }
-
-/* Mobile */
 
 
 
